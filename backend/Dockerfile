@@ -1,5 +1,5 @@
 FROM rasa/rasa:latest-full 
-
+USER root
 WORKDIR /app
 COPY . /app
 COPY ./data /app/data
