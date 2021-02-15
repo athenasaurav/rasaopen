@@ -7,4 +7,5 @@ USER root
 RUN pip3 install recognizers-text-suite
 
 # Switch back to a non-root user
+CMD [ "run","-actions","--port","5065"]
 USER 1001
